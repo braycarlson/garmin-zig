@@ -1,0 +1,19 @@
+.{
+    .name = .garmin,
+    .version = "0.1.0",
+    .minimum_zig_version = "0.17.0",
+    .fingerprint = 0x9f6d6c697b4359f9,
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .dotenv = .{
+            .path = "../dotenv-zig",
+        },
+        .json = .{
+            .path = "../json-zig",
+        },
+    },
+}

@@ -1,0 +1,6 @@
+.tigerstyle_cache/
+.zig-cache/
+zig-out/
+zig-pkg/
+.env
+capture_out/
